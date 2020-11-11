@@ -1,0 +1,18 @@
+body {
+  font-family: Arial;
+  background-color: #ccc;
+}
+p {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: justify;
+  line-height: 60px;
+}
+h2 {
+  font-style: italic;
+}
+
+h1 {
+  text-transform: capitalize;
+  text-align: center;
+}

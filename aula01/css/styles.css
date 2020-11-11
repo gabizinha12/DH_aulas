@@ -1,0 +1,10 @@
+#titulo {
+  color: green;
+}
+.title {
+  color: blueviolet;
+}
+body {
+  background-image: url("../img/yorkie.jpg");
+  background-repeat: repeat-y;
+}
