@@ -5,3 +5,50 @@ body {
   padding: 0;
   margin: 0;
 }
+.logo {
+  float: left;
+  margin-left: 50px;
+}
+.logo h1 {
+  font-weight: bold;
+  font-size: 23px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.logo a {
+  color: #333;
+  text-decoration: none;
+}
+
+nav.menu {
+  float: right;
+}
+nav.menu ul {
+  position: relative;
+  list-style: none;
+  top: 8px;
+}
+nav.menu li {
+  padding: 0 10px;
+  font-weight: lighter;
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 20px;
+  color: #333;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.img {
+  background-size: cover;
+  margin-left: 43px;
+}
+footer {
+  font-weight: lighter;
+  text-align: center;
+  background-color: #f2f2f2;
+  height: 30px;
+}
