@@ -24,6 +24,7 @@ body {
 nav.menu {
   float: right;
 }
+
 nav.menu ul {
   position: relative;
   list-style: none;
@@ -36,6 +37,7 @@ nav.menu li {
   text-decoration: none;
   margin-right: 20px;
   color: #333;
+  margin-top: 10px;
 }
 a {
   text-decoration: none;
@@ -46,11 +48,46 @@ a {
   background-size: cover;
   margin-left: 43px;
 }
-footer {
+.footer {
   font-weight: lighter;
   text-align: center;
   background-color: #f2f2f2;
   height: 30px;
   margin-left: 40px;
   margin-right: 10px;
+}
+
+p {
+  font-weight: lighter;
+  text-align: center;
+  padding-top: 8px;
+  margin-top: 8px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-alternative {
+  width: 500px;
+  margin-left: 90px;
+  margin-top: 60px;
+}
+
+div {
+  text-align: center;
+  align-content: center;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 30px;
+  clear: both;
+}
+.musics {
+  margin-left: 90px;
+  padding-top: 40px;
 }
