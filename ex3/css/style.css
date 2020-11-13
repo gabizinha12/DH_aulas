@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-image: url("../img/bg-2.png");
+}
+header {
+  overflow: hidden;
+  background-color: #ef4c27;
+  margin-top: 30px;
+  position: sticky;
+  top: 20px;
+  bottom: 20px;
+}
+header a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+header li {
+  float: left;
+  list-style: none;
+  text-align: center;
+}
+img {
+  float: left;
+}
