@@ -16,3 +16,7 @@ h1 {
   text-transform: capitalize;
   text-align: center;
 }
+
+li:hover {
+  background-color: aqua;
+}
