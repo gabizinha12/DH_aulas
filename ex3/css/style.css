@@ -3,32 +3,98 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   font-family: "Arial", sans-serif;
   background-image: url("../img/bg-2.png");
 }
-header {
-  overflow: hidden;
+nav {
   background-color: #ef4c27;
-  margin-top: 30px;
+  padding: 20px;
+  width: 960px;
+  height: 10px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
   position: sticky;
-  top: 20px;
-  bottom: 20px;
 }
-header a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px;
+nav a {
   text-decoration: none;
+  color: white;
+  margin-left: 80px;
 }
 
-header li {
-  float: left;
-  list-style: none;
-  text-align: center;
+#logo {
+  position: absolute;
+  top: -30px;
+  left: -30px;
 }
-img {
+#wrapper {
+  width: 960px;
+  overflow: hidden;
+  margin: 60px auto;
+  background-color: white;
+}
+.pos {
+  width: 300px;
+  margin: 10px;
+  background-color: azure;
+  overflow: hidden;
   float: left;
+  height: 170px;
+}
+.button {
+  width: 90px;
+  height: 40px;
+  background-color: rgba(255, 0, 0, 0.6);
+  position: absolute;
+  left: 90px;
+  bottom: 5px;
+  padding: 1px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 80%;
+  text-transform: uppercase;
+}
+img.free {
+  position: relative;
+  left: 210px;
+  bottom: 88px;
+  opacity: 0.8;
+}
+span {
+  background-color: rgba(122, 122, 82, 0.6);
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-style: italic;
+  margin-top: 60px;
+}
+img.off {
+  position: relative;
+  left: 210px;
+  bottom: 80px;
+  opacity: 0.8;
+}
+img.nuevo {
+  position: relative;
+  left: 210px;
+  bottom: 40px;
+  opacity: 0.8;
+  top: 2px;
+}
+
+.first {
+  background-image: url("../img/img-phone-01.jpg");
+  position: relative;
+}
+.second {
+  background-image: url("../img/img-phone-02.jpg");
+  position: relative;
+}
+
+.third {
+  background-image: url("../img/img-phone-03.jpg");
+  position: relative;
 }
