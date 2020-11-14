@@ -13,7 +13,7 @@ body {
   align-self: center;
   box-sizing: border-box;
 
-  background-image: url("./img/bg-2.png");
+  background-image: url("../img/bg-2.png");
   background-attachment: fixed;
   background-size: auto;
 }
